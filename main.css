@@ -1,0 +1,258 @@
+*{
+    margin: 0px;}
+/*thanh menu*/
+.menu ul{
+    width: 100%;
+    height: 80px;
+    background-color: #881bbe;
+    list-style: none;}
+.menu ul li{
+    display: inline-block;
+    vertical-align: middle;}
+.menu ul li a{
+    text-decoration: none;
+    width: 100%;
+    vertical-align: middle;
+    padding: 29px 25px 20px 25px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 25px;}
+.menu ul.ul li.li:hover{
+    background-color: #b06ed1;
+    transition:0.5s ease-in-out;
+    padding: 27px 0px 22px 0px;
+    margin-bottom: 8px;}
+
+/*thanh tìm kiếm*/
+.search input{
+    margin-left: 80px;
+    width: 50px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 2px solid black;
+    font-size: 14px;
+
+}
+.search input:focus{
+    width: 280px;
+    transition:1.2s ease;
+}
+/*Menu 1*/
+ul.menu1{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    margin-top: 22px;
+    margin-left: -40px;}
+/*ẩn menu đa cấp*/
+ul.menu1 li {
+    float: none;
+    padding:15px 0px 20px 0px;
+    width:147.93px;
+    float:none;
+    display: none;
+    background-color:#b06ed1; }
+ul.menu1 li a{
+    font-size: 18px;
+    padding:17px 15px 20px 33px;}
+/*thêm */
+.menu ul li.li:hover ul.menu1 li {
+    display: block;}
+/*di chuột vào từng thu mục con */
+ul.menu1 li:hover{
+    background-color: #6d1c96;
+    transition: 1s;}
+/*Menu2*/
+ul.menu2{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    margin-top: 22px;
+    margin-left: -40px;}
+/*ẩn menu đa cấp*/
+ul.menu2 li {
+    float: none;
+    padding:15px 0px 20px 0px;
+    width:171.53px;
+    float:none;
+    display: none;
+    background-color:#b06ed1; }
+ul.menu2 li a{
+    font-size: 18px;
+    padding:17px 15px 20px 33px;}
+/*thêm */
+.menu ul li.li:hover ul.menu2 li {
+    display: block;}
+/*di chuột vào từng thu mục con */
+ul.menu2 li:hover{
+    background-color: #6d1c96;
+    transition: 1s;}
+/*Menu 3*/
+ul.menu3{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    margin-top: 22px;
+    margin-left: -40px;}
+ul.menu3 li {
+    float: none;
+    padding:15px 0px 20px 0px;
+    width:207.74px;
+    float:none;
+    display: none;
+    background-color:#b06ed1; }
+ul.menu3 li a{
+    font-size: 18px;
+    padding:17px 15px 20px 33px;}
+/*thêm */
+.menu ul li.li:hover ul.menu3 li {
+    display: block;}
+/*di chuột vào từng thu mục con */
+ul.menu3 li:hover{
+    background-color: #6d1c96;
+    transition: 1s;}
+.img a img{
+    width: 450px;
+    height: 600px;}
+.img a img:hover{
+    transition: 1s;
+    opacity: 0.8;
+    filter: alpha(opacity=50);
+}
+.conten .img h1{
+    text-align: center;
+    padding: 56px;
+    color: #781ca7;}
+.conten .img h1.left{
+    margin-right: 700px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.conten .img h1.right{
+    margin-left: 700px;
+    font-size: 30px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.button{height: 250px;}
+.button button{
+    width:230px;
+    height: 200px;
+    font-size: 20px;
+    border: none;
+    color:#6d1c96;
+}
+.button ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 30px 0px 10px 0px;
+    margin-left: 100px;
+}
+.button button:hover{
+    box-shadow: 5px 5px 5px 5px #AAA;
+    transition: 0.7s;}
+.product h1#shose{
+    color:purple;
+    text-align: center;
+    font-size: 70px;
+    font-weight:bold;
+    text-shadow: 3px 3px red, 2px 2px red,2px 2px red;
+    animation: rotation 7s infinite linear;
+    width: 100%;
+}
+@keyframes rotation {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+}
+.fa, .fas {
+    color: red;
+}
+.product li{
+    background-color: rgb(226, 211, 226);
+    width: 400px;
+    height: 500px;
+    margin-left: 70px;
+    margin-right: 20px;
+    margin-bottom: 70px;
+    border-radius: 20px;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+}
+.product li img{
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+    
+}
+.product .shosename{
+    text-align: center;
+    margin:none;
+    padding: none;
+}
+.product .shosename p{font-size: 20px;}
+.product .shosename h1{color: purple;}
+
+.product .add button{
+    padding: 5px 20px 5px 20px;
+    vertical-align: middle;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius: 6px;
+    
+}
+.product .size{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+
+}
+.product .size span{
+    background-color: #b06ed1;
+    color: white;
+    border-radius: 4px;
+    padding: 0px 5px;
+    margin: 8px 0px 8px 6px
+}
+.product .add button a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+.product .add button:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+.product li:hover img{
+    transform: translateY(-60px) rotate(-30deg);
+    transition: 0.9s;
+    transition-delay:0.1s ;
+}
+.product li:hover .shosename h1, .product li:hover .shosename p{
+    transform: translate(-70px,-70px);
+    transition:  0.6s;
+    transition-delay:0.2s ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
